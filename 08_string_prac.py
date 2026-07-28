@@ -75,6 +75,22 @@
 # c = b[1].strip().lower()
 # print(c)
 
-code = "PUMP_A"
-temp = 87
-print(f"설비{code}, 온도{temp}도")
+# code = "PUMP_A"
+# temp = 87
+# print(f"설비{code}, 온도{temp}도")
+
+# a = 30
+# b = 40
+# c = 50
+# print(f"평균:{(30 + 40 + 50)/3}")
+
+# a = 87.456
+# print(f"{a:.1f}")
+# print(f"{a:.2f}")
+
+# a = " 5 , sensor_2 , WARNING , 0.78912 "
+# b = a.strip().split(",")
+# c = b[1].strip()
+# d = b[2].strip().lower()
+# e = float(b[3].strip())
+# print(f"[센서{c}] 상태 {d}, 측정값 {e:.2f}")
