@@ -50,3 +50,42 @@ for row in rows:
   print(row[0], "온도", row[1]) # 펌프 온도 25
 # rows는 리스트를 담고 있는 큰 리스트
 # row는 rows 안에 있는 작은 리스트 예) ["펌프", 25] 하나
+
+# temps = [22, 37, 26, 25, 33, 23, 39, 40]
+# a = []
+
+# for t in temps:
+#     if t > 30:
+#         a.append(t)
+# print(a)
+# print(len(a))
+
+# temps = [22, 37, 26, 25, 33, 23, 39, 40]
+# a = []
+
+# for t in temps:
+#     a.append(round(t * 1.8 + 32, 1))
+# print(a)
+
+# temps = [22, 37, 26, 25, 33, 23, 39, 40, 48]
+# total = 0
+
+# for t in temps:
+#     total += t
+# print("전체 평균: ", total / len(temps))
+
+# ab = []
+# for t in temps:
+#     if t > 30:
+#         ab.append(t)
+# ab_total = 0
+# for a in ab:
+#     ab_total += a
+# print("고온 갯수: ", len(ab))
+# print("고온 평균: ", ab_total / len(ab))
+
+# hours = [3, 8, 7, 10, 12, 6]
+
+# for h in hours:
+#   if h >= 5 and h <= 10:
+#     print(h)
